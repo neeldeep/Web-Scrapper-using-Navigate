@@ -6,5 +6,5 @@ var google = new Nightmare()
   .wait()
   .screenshot('score-update.png')
   .run(function(){
-  console.log('Done!')
+  console.log('Done!');
   });
